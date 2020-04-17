@@ -1,10 +1,10 @@
 {
   "name": "web-scouter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "web scouter",
   "main": "index.js",
   "scripts": {
-    "release": "git pull -t && standard-version && git push --follow-tags && npm publish"
+    "release": "standard-version"
   },
   "author": "eat-fish",
   "license": "MIT",
@@ -21,7 +21,7 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry": ""
+    "registry": "https://github.com/SummerJoan3/web-scouter"
   },
   "devDependencies": {
     "standard-version": "^7.1.0"
