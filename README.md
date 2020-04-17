@@ -42,13 +42,10 @@ web-scouter -v
 web-scouter -h
 
 # 检查网页  命令缩写 -u,--url
-web-scouter --url https://www.shiguangkey.com
+web-scouter --url https://www.baidu.com
 
 # 检查移动端网页   命令缩写 -m,--min
-web-scouter --url https://m.shiguangkey.com -m
-
-# -n --notnotice添加该参数时,不会将检测信息通知机器人,默认情况下,检测完毕后将检测信息通知机器人发给开发人员
-web-scouter -u https://m.shiguangkey.com -m -n
+web-scouter --url https://m.baidu.com -m
 ```
 
 ### 输出信息

@@ -2,7 +2,7 @@
 const { program } = require('commander')
 const checkUrl = require('../lib/checkParameter/url')
 
-program.version('v0.0.1', '-v,--version')
+program.version('v0.0.3', '-v,--version')
 
 program
   .option('-u,--url', '项目url链接')

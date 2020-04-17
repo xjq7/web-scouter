@@ -4,7 +4,8 @@
   "description": "web scouter",
   "main": "index.js",
   "scripts": {
-    "release": "standard-version"
+    "prerelease": "standard-version --prerelease && git push --follow-tags origin master",
+    "release": "standard-version && git push --follow-tags origin master"
   },
   "author": "eat-fish",
   "license": "MIT",
@@ -19,10 +20,7 @@
   "bin": {
     "web-scouter": "bin/cli.js"
   },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://github.com/SummerJoan3/web-scouter"
-  },
+  "homepage": "https://github.com/SummerJoan3",
   "devDependencies": {
     "standard-version": "^7.1.0"
   }
