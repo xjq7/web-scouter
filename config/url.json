@@ -1,0 +1,14 @@
+{
+  "urlBlackList": {
+    "百度": "hm.baidu.com",
+    "ico": ".ico",
+    "png格式图片": ".png"
+  },
+  "urlWhiteList": {},
+  "blackMiniChunkSource": {
+    "vue": "vue",
+    "element-ui": "element-ui",
+    "canvas": "canvas",
+    "axios": "axios"
+  }
+}

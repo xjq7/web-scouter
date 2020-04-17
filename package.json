@@ -1,0 +1,29 @@
+{
+  "name": "web-scouter",
+  "version": "0.0.1",
+  "description": "web scouter",
+  "main": "index.js",
+  "scripts": {
+    "release": "git pull -t && standard-version && git push --follow-tags && npm publish"
+  },
+  "author": "eat-fish",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^5.0.0",
+    "esm": "^3.2.25",
+    "got": "^10.7.0",
+    "ora": "^4.0.3",
+    "puppeteer": "^2.1.1"
+  },
+  "bin": {
+    "web-scouter": "bin/cli.js"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": ""
+  },
+  "devDependencies": {
+    "standard-version": "^7.1.0"
+  }
+}
