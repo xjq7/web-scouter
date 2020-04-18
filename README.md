@@ -41,11 +41,11 @@ web-scouter -v
 # 查看帮助
 web-scouter -h
 
-# 检查网页  命令缩写 -u,--url
-web-scouter --url https://www.baidu.com
+# 检查网页  start <url>
+web-scouter start https://www.baidu.com
 
 # 检查移动端网页   命令缩写 -m,--min
-web-scouter --url https://m.baidu.com -m
+web-scouter start https://m.baidu.com -m
 ```
 
 ### 输出信息
