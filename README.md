@@ -4,7 +4,7 @@
 
 示例:
 
-<img src="https://xjq-blog.oss-cn-shenzhen.aliyuncs.com/blog/073865B7-38BE-46E2-8863-28C3C8447212.png">
+<img src="./example.png">
 
 ### 安装
 
