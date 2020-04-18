@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/SummerJoan3/web-scouter/compare/v0.0.4...v0.0.5) (2020-04-18)
+
+
+### Bug Fixes
+
+* 更新v0.0.5文档 ([1432060](https://github.com/SummerJoan3/web-scouter/commit/1432060b3287e109ebff4990505b79078e1cb66a))
+* 加入google网站性能分析,微改静态资源正则 ([94996ad](https://github.com/SummerJoan3/web-scouter/commit/94996ad9889c5dc715531a4228187092bcc1f6ae))
+* v0.0.4,改变参数方式 ([45b3372](https://github.com/SummerJoan3/web-scouter/commit/45b337285342c42effb5c94afc9b3351b33b4ec6))
+
 ### [0.0.4](https://github.com/SummerJoan3/web-scouter/compare/v0.0.3...v0.0.4) (2020-04-18)
 
 
