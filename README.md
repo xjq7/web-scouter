@@ -4,9 +4,7 @@
 
 示例:
 
-<div style="text-align: center;">
-  <img src="https://xjq-blog.oss-cn-shenzhen.aliyuncs.com/blog/073865B7-38BE-46E2-8863-28C3C8447212.png">
-</div>
+<img src="https://xjq-blog.oss-cn-shenzhen.aliyuncs.com/blog/073865B7-38BE-46E2-8863-28C3C8447212.png">
 
 ### 安装
 
