@@ -3,8 +3,7 @@
     "百度": "hm.baidu.com",
     "window": "window",
     "document": "document",
-    "ico": ".ico",
-    "png格式图片": ".png"
+    "ico": ".ico"
   },
   "urlWhiteList": {},
   "blackMiniChunkSource": {}

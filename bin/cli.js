@@ -2,7 +2,7 @@
 const { program } = require('commander')
 const checkUrl = require('../lib/checkParameter/url')
 
-program.version('v0.0.4', '-v,--version')
+program.version('v0.0.5', '-v,--version')
 
 program.command('start').description('输入项目url地址开始检测').option('-m,--min', '移动端检测').action(checkUrl)
 
