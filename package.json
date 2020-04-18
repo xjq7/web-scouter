@@ -1,10 +1,9 @@
 {
   "name": "web-scouter",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "web scouter",
   "main": "index.js",
   "scripts": {
-    "prerelease": "standard-version --prerelease && git push --follow-tags origin master",
     "release": "standard-version && git push --follow-tags origin master"
   },
   "author": "eat-fish",
