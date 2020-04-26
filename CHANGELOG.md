@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/SummerJoan3/web-scouter/compare/v0.0.6...v0.0.7) (2020-04-26)
+
+
+### Bug Fixes
+
+* 跨域检测修复,小于1kb文件可以不开压缩 ([62b9b94](https://github.com/SummerJoan3/web-scouter/commit/62b9b94dc941fa9ccde063fd59cf560e6356da5b))
+* 小的版本修复 ([71fdc20](https://github.com/SummerJoan3/web-scouter/commit/71fdc2035228b5ddd316c493c90a5bc4fb69da2c))
+
 ### [0.0.6](https://github.com/SummerJoan3/web-scouter/compare/v0.0.5...v0.0.6) (2020-04-26)
 
 
