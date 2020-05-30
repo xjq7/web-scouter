@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.8](https://github.com/SummerJoan3/web-scouter/compare/v0.0.7...v0.0.8) (2020-05-30)
+
+
+### Bug Fixes
+
+* 暂停google网站分析的使用 ([4aca419](https://github.com/SummerJoan3/web-scouter/commit/4aca4190ef41939df9b4c5e97f017d1307e20695))
+
 ### [0.0.7](https://github.com/SummerJoan3/web-scouter/compare/v0.0.6...v0.0.7) (2020-04-26)
 
 
