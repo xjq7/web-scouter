@@ -1,5 +1,4 @@
 const handleMetrics = require('../lib/handleMetrics')
-const handleGoogleInsight = require('../lib/handleGoogleInsight')
 export default async function plugin({ succeed, fail, chalk }, options = {}) {
   //无头浏览器检测
   await handleMetrics({ chalk, succeed, fail })
