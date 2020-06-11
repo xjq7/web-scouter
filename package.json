@@ -1,6 +1,6 @@
 {
   "name": "web-scouter",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "web scouter",
   "main": "index.js",
   "scripts": {

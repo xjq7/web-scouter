@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.9](https://github.com/SummerJoan3/web-scouter/compare/v0.0.8...v0.0.9) (2020-06-11)
+
+
+### Features
+
+* 增加服务器类型检测 ([f8aa5ae](https://github.com/SummerJoan3/web-scouter/commit/f8aa5aef6a9fe1da3f96e0d8d7921b536e4063fc))
+
+
+### Bug Fixes
+
+* 删除全部http2出现的地方 ([3d3b0fe](https://github.com/SummerJoan3/web-scouter/commit/3d3b0fe50efcc7bcf82cc2b08d1e029726691a8e))
+* 删除http2的引用 ([7976747](https://github.com/SummerJoan3/web-scouter/commit/7976747601f174819573ceade99c8aad30244eb0))
+
 ### [0.0.8](https://github.com/SummerJoan3/web-scouter/compare/v0.0.7...v0.0.8) (2020-05-30)
 
 
