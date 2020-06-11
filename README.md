@@ -135,7 +135,6 @@ mainSite ✔ index.html  没有开启资源本地缓存,正确
 mainSite ✔ index.html  开启了 gzip 压缩
 mainSite ✔ https 证书时长剩余 699 天
 mainSite ✔ HSTS 已正确开启
-mainSite ✔ index.html  正确开启了http2
 mainSite ✔ 没有产生重定向
 mainSite ✖ 存在跨域安全问题,请检查
 ```
