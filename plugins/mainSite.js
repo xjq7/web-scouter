@@ -6,7 +6,7 @@ export default async function plugin({ succeed, fail, chalk: { white }, tool }, 
   } = options
   const { min } = DIS.getOption()
   let { rawHeaders } = reps
-  const { checkHttps, checkHsts, checkZip, checkCache, checkCrossDomain } = tool
+  const { checkServer, checkHttps, checkHsts, checkZip, checkCache, checkCrossDomain } = tool
   //缓存检测
   const cache = checkCache(rawHeaders, 'index.html')
   cache.code === 1 ? succeed(cache.msg) : fail(cache.msg)
@@ -31,13 +31,16 @@ export default async function plugin({ succeed, fail, chalk: { white }, tool }, 
   const hsts = checkHsts(rawHeaders)
   hsts.code === 1 ? succeed(hsts.msg) : fail(hsts.msg)
 
+  const server = checkServer(rawHeaders)
+  server.code === 1 ? succeed(server.msg) : fail(server.msg)
+
   //输出重定向检测
   if (redirectTime) {
     fail('警告:有重定向产生')
   } else {
     succeed('没有产生重定向')
   }
-  DIS.setMainSite({ url, hsts, mainSiteZip: zip, https, crossDomain, redirectTime, mainSiteCache: cache })
+  DIS.setMainSite({ url, hsts, mainSiteZip: zip, https, crossDomain, redirectTime, mainSiteCache: cache, server })
 
   succeed(white(`主站点检测查完毕`))
 }
