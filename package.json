@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/SummerJoan3",
   "devDependencies": {
-    "standard-version": "^7.1.0"
+    "standard-version": "8.0.1"
   }
 }
