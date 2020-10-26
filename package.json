@@ -21,9 +21,6 @@
   "devDependencies": {
     "standard-version": "8.0.1"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/SummerJoan3/web-scouter.git"
