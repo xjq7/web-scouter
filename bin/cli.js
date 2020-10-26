@@ -1,14 +1,28 @@
 #!/usr/bin/env node
 const { program } = require('commander')
-const checkUrl = require('../lib/checkParameter/url')
+const Instance = require('./instance')
+const parseArgs = require('./parseArgs')
+const package = require('../package.json')
 
-program.version('v0.1.0', '-v,--version')
+const instance = new Instance()
 
-program.command('start').description('输入项目url地址开始检测').option('-m,--min', '移动端检测').action(checkUrl)
+program.version(`v${package.version}`, '-v,--version')
 
-program.option('-h,--help', '查看帮助,更多信息前往 https://github.com/SummerJoan3/web-scouter')
+program.on('--help', () => {})
+
+program
+  .command('start <url>')
+  .option('-o,--output', 'input path, output as pdf and save your path')
+  .option('-m,--mobile', '移动端检测')
+  .action((url, _program) => {
+    instance.m = !!_program.mobile
+    instance.url = url
+  })
+
 program.parse(process.argv)
+const getArgv = parseArgs(program.rawArgs)
 
-process.on('unhandledRejection', (err) => {
-  // throw err
-})
+instance.getArgv = getArgv
+instance.program = program
+
+instance.check()
