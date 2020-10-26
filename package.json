@@ -1,20 +1,18 @@
 {
   "name": "web-scouter",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "web scouter",
-  "main": "index.js",
   "scripts": {
     "release": "standard-version && git push --follow-tags origin master"
   },
   "author": "eat-fish",
   "license": "MIT",
   "dependencies": {
-    "chalk": "^3.0.0",
-    "commander": "^5.0.0",
-    "esm": "^3.2.25",
-    "got": "^10.7.0",
-    "ora": "^4.0.3",
-    "puppeteer": "^2.1.1"
+    "axios": "^0.20.0",
+    "chalk": "^4.1.0",
+    "commander": "^6.1.0",
+    "dayjs": "^1.9.3",
+    "ora": "^5.1.0"
   },
   "bin": {
     "web-scouter": "bin/cli.js"
@@ -22,5 +20,12 @@
   "homepage": "https://github.com/SummerJoan3",
   "devDependencies": {
     "standard-version": "8.0.1"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SummerJoan3/web-scouter.git"
   }
 }

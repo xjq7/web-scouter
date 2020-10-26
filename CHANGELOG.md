@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.10](https://github.com/SummerJoan3/web-scouter/compare/v0.0.9...v0.0.10) (2020-10-26)
+
+
+### Bug Fixes
+
+* 升级standard-version版本 ([0ceeb2e](https://github.com/SummerJoan3/web-scouter/commit/0ceeb2e94349414d72c0ba3156d3cb21efd19e3a))
+
 ### [0.0.9](https://github.com/SummerJoan3/web-scouter/compare/v0.0.8...v0.0.9) (2020-06-11)
 
 
