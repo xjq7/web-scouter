@@ -1,6 +1,6 @@
 {
   "name": "web-scouter",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "web scouter",
   "scripts": {
     "release": "standard-version && git push --follow-tags origin master"
