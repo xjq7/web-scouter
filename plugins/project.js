@@ -18,6 +18,13 @@ function project({ instance, response, log }) {
     log.text(`已开启 ${encodingValue} 压缩`)
   }
 
+  const crossValue = headers['access-control-allow-origin']
+  if (crossValue) {
+    log.text(`跨域配置: ${crossValue}`)
+  } else {
+    log.text(`未配置跨域`)
+  }
+
   checkCache({ rawHeaders, headers, log })
 }
 
