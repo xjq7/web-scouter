@@ -27,7 +27,6 @@ Instance.prototype.check = async function () {
       await plugin({ instance: this, response, log })
     }
   } catch (error) {
-    console.log(error)
     spinner.fail('地址无法访问')
   }
 
