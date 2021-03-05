@@ -2,9 +2,7 @@
 
 检查网站信息
 
-<!-- ### 安装
-
-#### 项目依赖安装
+#### 安装
 
 ```bash
 # 加速puppeteer的下载
@@ -30,7 +28,7 @@ sudo yum install pango.x86_64 libXcomposite.x86_64 libXcursor.x86_64 libXdamage.
 
 # 2.
 yum update nss -y
-``` -->
+```
 
 ### 使用
 
@@ -49,3 +47,20 @@ web-scouter start https://m.baidu.com -m
 ```
 
 ### 输出信息
+
+基本信息:
+
+       IP地址: *.*.*.*
+       web服务器: **
+
+证书信息:
+
+       证书机构: **
+       证书颁发时间: **
+       证书到期时间: **
+
+项目信息:
+
+       HSTS
+       跨域
+       缓存
